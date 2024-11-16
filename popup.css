@@ -1,0 +1,106 @@
+body {
+    
+    background-color: rgba(0, 0, 0, 0.808);
+    
+    /*background-color: Ivory;*/
+    text-align: center;
+    min-width: 300px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+}
+h1 {
+    color: #40E0D0;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    font-weight: 780;
+}
+
+p {
+    color: #40E0D0;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.button {
+    color:black;
+    background-color: #5ff0e1;
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 4.5rem; 
+    height: 2rem;
+    border-radius: 1rem;
+    /*
+    animation: backgroundYellow 1s infinite;
+    */
+    position: relative;
+    cursor: pointer;
+}
+
+.row {
+    padding: 0 8px;
+    pointer-events: none;
+}
+
+.circle {
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: #40E0D0;
+    /*
+    animation: moveCircleRight 1s infinite;
+    */
+    pointer-events: none;
+    
+}
+
+@keyframes moveCircleRight {
+    from {
+        left: 0;
+        background-color: #40E0D0;
+    }
+    
+    to {
+        left: 100%;
+        transform: translateX(-100%);
+        background-color: yellow;
+    }
+}
+
+@keyframes moveCircleLeft {
+    from {
+        left: 100%;
+        transform: translateX(-100%);
+        background-color: yellow;
+    }
+    
+    to {
+        left: 0;
+        background-color: #40E0D0;
+    }
+}
+
+@keyframes backgroundYellow {
+    from {
+        background-color: #5ff0e1;
+    }
+    
+    to {
+        background-color: #FDFD96;
+    }
+}
+
+@keyframes backgroundBlue {
+    from {
+        background-color: #FDFD96;
+    }
+    
+    to {
+        background-color: #5ff0e1;
+    }
+}

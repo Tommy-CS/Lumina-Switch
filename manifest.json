@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Lumina Switch",
+  "description": "Change your browser from dark mode to light mode, or vice versa",
+  "version": "1.0",
+  "action": {
+    "default_title": "Lumina Switch",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "sparkleEmoji16x16.png",
+      "32": "sparkleEmoji32x32.png",
+      "48": "sparkleEmoji48x48.png",
+      "128": "sparkleEmoji128x128.png"
+    }
+  },
+  "permissions": [
+    "tabs",
+    "scripting",
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
