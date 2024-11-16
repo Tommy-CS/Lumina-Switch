@@ -22,5 +22,5 @@ I learned a lot of things from this project. First, I learned the process behind
 
 To be honest, most of the Javascript portion was a significant learning experience since it was my first time working with Chrome APIs. For example, I learned out how to check if the URL is allowed, loop through each Chrome tab to ensure it updates with the button's status, and much more. 
 
-Overall, this project was a great experience that will help to grow my skills and expand my knowledge of front-end development. It might even be my introduction to making Chrome extensions!
+Overall, this project was a great experience that will help to grow my skills and expand my knowledge of front-end development. It might even be my introduction to making more Chrome extensions!
  
