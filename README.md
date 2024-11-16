@@ -1,4 +1,4 @@
-# Lumina-Switch
+# Lumina Switch
 **Lumina Switch** is a google chrome extension that can be used for toggling light mode and dark mode on websites with the click of a button!
 
 ## Features
