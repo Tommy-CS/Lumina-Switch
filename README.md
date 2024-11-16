@@ -13,7 +13,7 @@
 4. Click "Load unpacked" and select the project folder.
 
 ## Usage
-Click the Lumina Switch icon, a "✨." Then, you're all set! Click the button to toggle between dark and light mode.
+Click the Lumina Switch icon, which is a "✨." Then, you're all set! Click the button to toggle between dark and light mode.
 
 
 
