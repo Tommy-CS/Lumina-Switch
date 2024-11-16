@@ -15,6 +15,7 @@
 ## Usage
 Click the Lumina Switch icon, which is a "✨." Then, you're all set! Click the button to toggle between dark and light mode.
 
+![alt text](<Lumina-Switch GIF.gif>)
 
 
  
